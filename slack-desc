@@ -1,0 +1,11 @@
+powerman: PowerMan (Power Management Software)
+powerman:
+powerman: PowerMan is a tool for manipulating remote power control (RPC)
+powerman: devices from a central location.  Several RPC varieties are
+powerman: supported natively by PowerMan and Expect-like configurability
+powerman: simplifies the addition of new devices.
+powerman:
+powerman:
+powerman:
+powerman:
+powerman: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
