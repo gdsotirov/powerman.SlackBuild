@@ -5,7 +5,7 @@
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
 
-. ../slack-package.conf
+. ../../slack-package.conf
 
 NAME=powerman
 VERSION=2.3.5
@@ -42,6 +42,7 @@ CXXFLAGS=$SLKCFLAGS \
 ./configure --build=$ARCH-slackware-linux \
             --host=$ARCH-slackware-linux \
             --prefix=/usr \
+            --libdir=/usr/lib$LIBDIRSUFFIX \
             --sysconfdir=/etc/ups \
             --mandir=/usr/man \
             --enable-shared=yes \
