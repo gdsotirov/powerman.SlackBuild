@@ -1,11 +1,19 @@
-powerman: PowerMan (Power Management Software)
+powerman: powerman (cluster power management utility)
 powerman:
-powerman: PowerMan is a tool for manipulating remote power control (RPC)
-powerman: devices from a central location.  Several RPC varieties are
-powerman: supported natively by PowerMan and Expect-like configurability
-powerman: simplifies the addition of new devices.
-powerman:
-powerman:
-powerman:
+powerman: Powerman is free UNIX/Linux software that controls (remotely and in
+powerman: parallel) switched power distribution units.  It was designed for
+powerman: remote power control of Linux systems in a data center or cluster
+powerman: environment, but has been used in other environments such as embedded
+powerman: management appliances, home automation, and high availability service
+powerman: management.
+powerman: Powerman can be extended to support new devices using an expect-like
+powerman: scripting language. It communicates with devices natively using
+powerman: telnet, raw socket, and serial protocols.  It also can drive virtual
+powerman: power control devices via a coprocess interface.  The coprocess
+powerman: mechanism has been used to extend powerman to communicate with
+powerman: devices using other protocols such as SNMP, IPMI, Insteon, X-10, and
+powerman: VXI-11.  Powerman can control equipment connected using any
+powerman: combination of the above methods and provide unified naming for the
+powerman: equipment and parallel execution of control actions.
 powerman:
 powerman: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
