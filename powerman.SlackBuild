@@ -19,13 +19,13 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: powerman.SlackBuild,v 1.4 2014/03/03 17:21:50 gsotirov Exp $
+# $Id: powerman.SlackBuild,v 1.5 2014/03/09 08:20:50 gsotirov Exp $
 #
 
 . ../../slack-package.conf
 
 NAME=powerman
-VERSION=2.3.14
+VERSION=2.3.16
 BUILD=${BUILD:-1}
 ARCH=${ARCH:-i486}
 
