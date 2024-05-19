@@ -1,1 +1,21 @@
 aaa_glibc-solibs >= 2.33
+brotli >= 1.0.9
+c-ares >= 1.18.1
+curl >= 7.81.0
+cyrus-sasl >= 2.1.27
+e2fsprogs >= 1.46.5
+jansson >= 2.14
+keyutils >= 1.6.3
+krb5 >= 1.19.2
+libidn2 >= 2.3.2
+libnsl >= 1.3.0
+libpsl >= 0.21.1
+libssh2 >= 1.10.0
+libtirpc >= 1.3.2
+libunistring >= 0.9.10
+net-snmp >= 5.9.1
+nghttp2 >= 1.46.0
+openldap >= 2.4.59
+openssl >= 1.1.1m | openssl-solibs >= 1.1.1m
+zlib >= 1.2.11
+zstd >= 1.5.2
