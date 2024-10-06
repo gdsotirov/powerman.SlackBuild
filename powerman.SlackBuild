@@ -23,7 +23,7 @@
 . ../../slack-package.conf
 
 NAME=powerman
-VERSION=2.4.3
+VERSION=2.4.4
 ARCH=${ARCH:-i586}
 BUILD=${BUILD:-1}
 
